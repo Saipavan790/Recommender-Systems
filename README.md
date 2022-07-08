@@ -45,4 +45,7 @@ In the above I have extracted books that have received at least 30 ratings. It's
 **Implement the KNN model**  
 We convert our table to a 2D matrix, and fill the missing values with zeros (since we will calculate distances between rating vectors). We then transform the values(ratings) of the matrix dataframe into a scipy sparse matrix for more efficient calculations.
 
+![](https://github.com/Saipavan790/Recommender-Systems/blob/main/build_model.png)
+We then generate a pivot table with the values as the ratings, the book titles as the rows and the user IDs as the columns. They are lot of null values in our pivot table so we convert those values to zeroes before feeding it to the model. Since our dataset is fairly large. For better computations we convert our pivot table to sparse matrix.
+
 

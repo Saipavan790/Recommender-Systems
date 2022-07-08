@@ -25,10 +25,16 @@ The steps I followed to implement this project
 
 kNN is a machine learning algorithm to find clusters of similar users based on common book ratings, and make predictions using the average rating of top-k nearest neighbors.
 
-**Load the data**  
+**Load the data:**  
 You can get the data from this [link](http://www2.informatik.uni-freiburg.de/~cziegler/BX/)  
 From this link you have to download three files.  
 ![](https://github.com/Saipavan790/Recommender-Systems/blob/main/load_data1.png)
 
 I only selected relevent columns from the dataset. Note that file encoding is not 'utf-8'.  
 **To ensure statistical significance, we will be only looking at the popular books.**
+
+**Data Preprocessing:**
+
+![](https://github.com/Saipavan790/Recommender-Systems/blob/main/extract_users.png)  
+As you can see I've explained clearly how I extracted users who have rated at least 200 books.
+

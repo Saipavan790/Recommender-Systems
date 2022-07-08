@@ -50,3 +50,10 @@ We then generate a pivot table with the values as the ratings, the book titles a
 
 ![](https://github.com/Saipavan790/Recommender-Systems/blob/main/trained_model.png)
 We use unsupervised algorithms with sklearn.neighbors. The algorithm we use to compute the nearest neighbors is “brute”, and we specify “metric=euclidean” so that the algorithm will calculate the distance between rating vectors. Finally, we fit the model.
+
+**Make Predictions**  
+I defined a function which would take book name and returns a list of 5 recommendations.
+
+![](https://github.com/Saipavan790/Recommender-Systems/blob/main/predictions.png)
+
+These predictions are based on euclidean distance. We can also build this same model using cosine similarity.

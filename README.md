@@ -40,4 +40,9 @@ As you can see I've explained clearly how I extracted users who have rated at le
 
 ![](https://github.com/Saipavan790/Recommender-Systems/blob/main/extract_books.png)
 
-In the above I have extracted books that have received at least 30 ratings. It's because we cannot recommend books based on less ratings.
+In the above I have extracted books that have received at least 30 ratings. It's because we cannot recommend books based on less ratings. After that merge your book and ratings dataframe.
+
+**Implement the KNN model**  
+We convert our table to a 2D matrix, and fill the missing values with zeros (since we will calculate distances between rating vectors). We then transform the values(ratings) of the matrix dataframe into a scipy sparse matrix for more efficient calculations.
+
+

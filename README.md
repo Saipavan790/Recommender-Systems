@@ -38,3 +38,6 @@ I only selected relevent columns from the dataset. Note that file encoding is no
 ![](https://github.com/Saipavan790/Recommender-Systems/blob/main/extract_users.png)  
 As you can see I've explained clearly how I extracted users who have rated at least 200 books.
 
+![](https://github.com/Saipavan790/Recommender-Systems/blob/main/extract_books.png)
+
+In the above I have extracted books that have received at least 30 ratings. It's because we cannot recommend books based on less ratings.

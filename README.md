@@ -1,4 +1,4 @@
-# Book Recommendation Engine
+# [Book Recommendation Engine](https://github.com/Saipavan790/Recommender-Systems)
 Recommender systems is a sub-class of information filtering system that provide suggestions for items that are most pertinent to a particular user. Typically, the suggestions refer to various decision-making processes, such as what product to purchase, what music to listen to, or what online news to read. Recommender systems are particularly useful when an individual needs to choose an item from a potentially overwhelming number of items that a service may offer.
 
 **There are two ways to build a recommendation system:-**
@@ -18,3 +18,14 @@ Recommender systems is a sub-class of information filtering system that provide 
 >> The main advantage of collaborative approaches is that they require no information about users or items and, so, they can be used in many situations. Moreover, the more users interact with items the more new recommendations become accurate: for a fixed set of users and items, new interactions recorded over time bring new information and make the system more and more effective. However it only consider past interactions for making recommendations.
 
 **The method I used for this project is collaborative filtering**.
+
+The steps I followed to implement this project
+
+**Collaborative Filtering using K-Nearest Neighbors (KNN)**
+
+kNN is a machine learning algorithm to find clusters of similar users based on common book ratings, and make predictions using the average rating of top-k nearest neighbors.
+
+**Load the data**  
+You can get the data from this [link](http://www2.informatik.uni-freiburg.de/~cziegler/BX/)  
+From this link you have to download three csv files.  
+

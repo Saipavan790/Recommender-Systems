@@ -48,4 +48,5 @@ We convert our table to a 2D matrix, and fill the missing values with zeros (sin
 ![](https://github.com/Saipavan790/Recommender-Systems/blob/main/build_model.png)
 We then generate a pivot table with the values as the ratings, the book titles as the rows and the user IDs as the columns. They are lot of null values in our pivot table so we convert those values to zeroes before feeding it to the model. Since our dataset is fairly large. For better computations we convert our pivot table to sparse matrix.
 
-
+![](https://github.com/Saipavan790/Recommender-Systems/blob/main/trained_model.png)
+We use unsupervised algorithms with sklearn.neighbors. The algorithm we use to compute the nearest neighbors is “brute”, and we specify “metric=euclidean” so that the algorithm will calculate the distance between rating vectors. Finally, we fit the model.
